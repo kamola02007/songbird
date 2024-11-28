@@ -19,4 +19,9 @@ export class UIUpdater {
             birdList.appendChild(li)
         });
     }
+    updateScore (score ) {
+        const scoreElement = document.querySelector ('#score')
+
+        scoreElement.textContent = score
+    }
 }
